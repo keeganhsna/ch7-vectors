@@ -7,7 +7,7 @@ x <- c(5, 2, 6, 2, 1, 7)
 y <- c(2,3)
 
 # Create a vector `z` by adding (not combining, but adding) `x` and `y` (note the recycling!)
-z <- c(x,y)
+z <- x+y
 
 # Create a vector `first.three` that has the first three elements of `z` in it
 first.three <- z[1:3]
